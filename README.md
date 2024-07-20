@@ -1,1 +1,1 @@
-# telerymodule_r34
+# Модуль r34 для юзербота Telery.
