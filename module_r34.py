@@ -5,7 +5,7 @@ with open("userbot.info", "r") as file:
     lines = file.readlines()
     prefix_userbot = lines[2].strip()
 
-cinfo = f"{prefix_userbot}r34"
+cinfo = f"`{prefix_userbot}r34`"
 ccomand = " ищет hentai-фото"
 
 
