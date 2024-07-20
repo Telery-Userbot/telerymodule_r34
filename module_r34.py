@@ -10,7 +10,7 @@ ccomand = " ищет hentai-фото"
 
 
 def command_r34(app):
-    @app.on_message(filters.command("r34", prefixes=prefix_userbot))
+    @app.on_message(filters.me & filters.command("r34", prefixes=prefix_userbot))
     def r34_module(_, message):
         try:
             query = message.text.split(" ", 2)[1:]
